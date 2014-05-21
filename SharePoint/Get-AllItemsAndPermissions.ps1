@@ -2,6 +2,6 @@
 foreach($webapp in $webapps) 
 { 
     Write-Host $webapp.Name
-    .\Get-ItemsAndPermissions.ps1 -WebApplication $webapp.Url -FieldDelimiter ";" > c:\encamina\sites$webapp.Name.csv
+    .\Get-ItemsAndPermissions.ps1 -WebApplication $webapp.Url -FieldDelimiter ";" > c:\directory\sites$webapp.Name.csv
 } 
 

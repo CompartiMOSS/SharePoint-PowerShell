@@ -58,9 +58,6 @@
     <Content Include="Inventory-SPFarm.ps1" />
     <Content Include="User Access Report.ps1" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Script.ps1" />
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
 </Project>

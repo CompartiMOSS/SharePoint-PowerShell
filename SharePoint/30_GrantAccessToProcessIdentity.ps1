@@ -2,5 +2,5 @@
 foreach($webapp in $webapps) 
 { 
     Write-Host $webapp.Name
-    $webapp.GrantAccessToProcessIdentity("urbaser\svcExcel")
+    $webapp.GrantAccessToProcessIdentity("domain\svcExcel")
 } 

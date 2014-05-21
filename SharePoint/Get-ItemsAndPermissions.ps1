@@ -17,7 +17,7 @@
    Specifies the delimiter which is used between the fields.
 
 .EXAMPLE
-   PS > .\Get-ItemsAndPermissions.ps1 -WebApplication http://intranet.westeros.local -FieldDelimiter ";" > c:\temp\sites.csv
+   PS > .\Get-ItemsAndPermissions.ps1 -WebApplication http://intranet.sharepoint.local -FieldDelimiter ";" > c:\temp\sites.csv
 #>
 [CmdletBinding()]
 param(
