@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6CAFC0C6-A428-4d30-A9F9-700E829FEA51</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyApplication</RootNamespace>
+    <AssemblyName>MyApplication</AssemblyName>
+    <Name>SharePoint</Name>
+    <SccProjectName>
+    </SccProjectName>
+    <SccProvider>
+    </SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="00_ExecutionPolicy.ps1" />
+    <Content Include="01_HabilitarDeveloperDashboard.ps1" />
+    <Content Include="02_ContentDB_SiteCols_Size.ps1" />
+    <Content Include="02_GetContentDBSizes.ps1" />
+    <Content Include="03_GetWebAppAuthInfo.ps1" />
+    <Content Include="04_GetSiteCollectionSize.ps1" />
+    <Content Include="05_ExtractAllWSPs.ps1" />
+    <Content Include="06_ExecuteTestSPContentDatabase.ps1" />
+    <Content Include="07_DocumentSPEnvironment_Common.ps1" />
+    <Content Include="07_DocumentSPEnvironment_Services.ps1" />
+    <Content Include="08_GetAllSitesInFarm.ps1" />
+    <Content Include="09_GetAllListsInFarm.ps1" />
+    <Content Include="10_GetAllWorkflowsInFarm.ps1" />
+    <Content Include="11a_EnumerateSiteUsers.ps1" />
+    <Content Include="11_EnumerateSiteUser.ps1" />
+    <Content Include="30_GrantAccessToProcessIdentity.ps1" />
+    <Content Include="Find-WebPartPages.ps1" />
+    <Content Include="Get-AllItemsAndPermissions.ps1" />
+    <Content Include="Get-FeatureWebpartInventory.ps1" />
+    <Content Include="Get-ItemsAndPermissions.ps1" />
+    <Content Include="Inventory-SPFarm.ps1" />
+    <Content Include="User Access Report.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Script.ps1" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="Build" />
+</Project>
