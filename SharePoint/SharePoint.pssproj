@@ -57,6 +57,12 @@
     <Content Include="Audit\Get-ItemsAndPermissions.ps1" />
     <Content Include="Audit\Inventory-SPFarm.ps1" />
     <Content Include="Audit\User Access Report.ps1" />
+    <Content Include="Deployment\Activate-Feature.ps1" />
+    <Content Include="Deployment\ActivateFeature.ps1" />
+    <Content Include="Deployment\CreateListItemsFromCSV.ps1" />
+    <Content Include="Deployment\favorites.csv" />
+    <Content Include="Deployment\notifications.csv" />
+    <Content Include="Deployment\RecreateSite.ps1" />
     <Content Include="Utils\PS_AddFieldsToList.ps1" />
     <Content Include="Utils\PS_ApplyCustomMasterPageRecursively.ps1" />
     <Content Include="Utils\PS_ChangeAuthenticationType.ps1" />
@@ -78,9 +84,11 @@
     <Content Include="Utils\PS_RemoveOffice365Users.ps1" />
     <Content Include="Utils\PS_RemoveOffice365Users_UsuariosABorrar.csv" />
     <Content Include="Utils\PS_RemoveWebParts_WebPartCatalog.ps1" />
+    <Content Include="Utils\Script1.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Audit\" />
+    <Folder Include="Deployment\" />
     <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
