@@ -11,4 +11,4 @@ The scripts are grouped in the following sections:
 - Deployment. These scripts are intended to help on deployment solutions and features. 
 - Utils. These are intended to help with some administration functionalities.
 
-This project is powered by CompartiMOSS (www.compartimoss.com), a free Spanish SharePoint Magazine. 
+This project is powered by CompartiMOSS (www.compartimoss.com), a free Spanish SharePoint Magazine.  
