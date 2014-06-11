@@ -60,6 +60,7 @@
     <Content Include="Audit\User Access Report.ps1" />
     <Content Include="Deployment\Activate-Feature.ps1" />
     <Content Include="Deployment\ActivateFeature.ps1" />
+    <Content Include="Deployment\FunctionsCommons.ps1" />
     <Content Include="Deployment\CreateListItemsFromCSV.ps1" />
     <Content Include="Deployment\favorites.csv" />
     <Content Include="Deployment\notifications.csv" />
