@@ -65,6 +65,7 @@
     <Content Include="Deployment\favorites.csv" />
     <Content Include="Deployment\notifications.csv" />
     <Content Include="Deployment\RecreateSite.ps1" />
+    <Content Include="Deployment\SetJSLinkToLists.ps1" />
     <Content Include="Utils\PS_AddFieldsToList.ps1" />
     <Content Include="Utils\PS_ApplyCustomMasterPageRecursively.ps1" />
     <Content Include="Utils\PS_ChangeAuthenticationType.ps1" />
