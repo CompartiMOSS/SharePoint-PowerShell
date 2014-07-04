@@ -51,6 +51,7 @@
     <Content Include="Audit\11a_EnumerateSiteUsers.ps1" />
     <Content Include="Audit\11_EnumerateSiteUser.ps1" />
     <Content Include="Audit\30_GrantAccessToProcessIdentity.ps1" />
+    <Content Include="Audit\AnalyzeSearchCmdlets.ps1" />
     <Content Include="Audit\Find-WebPartPages.ps1" />
     <Content Include="Audit\Get-AllItemsAndPermissions.ps1" />
     <Content Include="Audit\Get-FeatureWebpartInventory.ps1" />
