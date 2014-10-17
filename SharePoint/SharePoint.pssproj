@@ -54,6 +54,7 @@
     <Content Include="Audit\AnalyzeSearchCmdlets.ps1" />
     <Content Include="Audit\Find-WebPartPages.ps1" />
     <Content Include="Audit\Get-AllItemsAndPermissions.ps1" />
+    <Content Include="Audit\Get-DocInventory.ps1" />
     <Content Include="Audit\Get-FeatureWebpartInventory.ps1" />
     <Content Include="Audit\Get-ItemsAndPermissions.ps1" />
     <Content Include="Audit\GetWebAppsMUI.ps1" />
