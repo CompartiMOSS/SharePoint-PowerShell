@@ -60,6 +60,8 @@
     <Content Include="Audit\GetWebAppsMUI.ps1" />
     <Content Include="Audit\Inventory-SPFarm.ps1" />
     <Content Include="Audit\User Access Report.ps1" />
+    <Content Include="Azure\ConnectAzure.ps1" />
+    <Content Include="Azure\UploadVHD.ps1" />
     <Content Include="Deployment\Activate-Feature.ps1" />
     <Content Include="Deployment\ActivateFeature.ps1" />
     <Content Include="Deployment\FunctionsCommons.ps1" />
@@ -94,6 +96,7 @@
   <ItemGroup>
     <Folder Include="Audit\" />
     <Folder Include="Deployment\" />
+    <Folder Include="Azure\" />
     <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
