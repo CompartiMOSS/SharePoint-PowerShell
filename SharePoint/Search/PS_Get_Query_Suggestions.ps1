@@ -1,7 +1,7 @@
 ﻿############################################################################################################################################
 # Script that allows to get all the query suggestions already defined in a SharePoint farm.
 # Required Parameters:
-#    ->$sTheasurusFilePath: Theasurus File Path
+#    -> N/A
 ############################################################################################################################################
 
 If ((Get-PSSnapIn -Name Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue) -eq $null ) 

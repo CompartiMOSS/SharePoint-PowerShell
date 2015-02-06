@@ -1,0 +1,4 @@
+﻿SPOSCollection,SPOGroup,SPOUser
+https://<Office365Domain>.sharepoint.com/sites/<Site1>/,"<SharePoint Group>","i:0#.f|membership|<user1>@<Office365Domain>.onmicrosoft.com"
+https://<Office365Domain>.sharepoint.com/sites/<Site2>/,"<SharePoint Group>","i:0#.f|membership|<user1>@<Office365Domain>.onmicrosoft.com"
+https://<Office365Domain>.sharepoint.com/sites/<Site3>/,"<SharePoint Group>","i:0#.f|membership|<user1>@<Office365Domain>.onmicrosoft.com"

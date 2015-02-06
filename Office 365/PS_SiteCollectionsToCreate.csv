@@ -1,0 +1,2 @@
+﻿SiteCRelativeUrl,SiteCTitle,SiteCollectionOwner,SiteCTemplate,SCStorageQuota,SCResourcesQuota,SCCulture,SCTimeZone
+sites/<SiteColUrl>,<SiteCollectionTitle>,<Office365User>@<Office365Domain>.onmicrosoft.com,STS#0,512,300,3082,3
