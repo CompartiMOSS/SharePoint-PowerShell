@@ -15,8 +15,8 @@ function ReadSPO-PropertyBags
     try
     {    
         #Adding the Client OM Assemblies        
-        Add-Type -Path "E:\03 Docs\10 MVP\03 MVP Work\11 PS Scripts\Office 365\Microsoft.SharePoint.Client.dll"
-        Add-Type -Path "E:\03 Docs\10 MVP\03 MVP Work\11 PS Scripts\Office 365\Microsoft.SharePoint.Client.Runtime.dll"
+        Add-Type -Path "G:\03 Docs\10 MVP\03 MVP Work\11 PS Scripts\Office 365\Microsoft.SharePoint.Client.dll"
+        Add-Type -Path "G:\03 Docs\10 MVP\03 MVP Work\11 PS Scripts\Office 365\Microsoft.SharePoint.Client.Runtime.dll"
 
         #SPO Client Object Model Context
         $spoCtx = New-Object Microsoft.SharePoint.Client.ClientContext($sSiteUrl)
@@ -48,10 +48,10 @@ function ReadSPO-PropertyBags
 }
 
 #Required Parameters
-$sSiteUrl = "https://<Office365Domain>.sharepoint.com/sites/CloudShare/" 
-$sUserName = "<Office365User@Office365Domain.SharePoint.com>" 
+$sSiteUrl = "https://fiveshareit.sharepoint.com/sites/mvpcluster/" 
+$sUserName = "juancarlos.gonzalez@fiveshareit.es" 
 #$sPassword = Read-Host -Prompt "Enter your password: " -AsSecureString  
-$sPassword=convertto-securestring "<Office365_Password>" -asplaintext -force
+$sPassword=convertto-securestring "647391&jc" -asplaintext -force
 
 ReadSPO-PropertyBags -sSiteUrl $sSiteUrl -sUserName $sUserName -sPassword $sPassword
 
