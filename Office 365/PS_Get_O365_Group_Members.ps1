@@ -1,4 +1,4 @@
-﻿############################################################################################################################################
+############################################################################################################################################
 # Script that allows to get the members for each Office 365 Group defined in an Office 365 tenant. 
 # Required Parameters: N/A.
 ############################################################################################################################################
@@ -19,8 +19,7 @@ function Get-O365Members
         foreach ($O365Group in $O365Groups) 
         { 
             Write-Host "Members of Group: " $O365Group.DisplayName -ForegroundColor Green
-            Get-UnifiedGroupLinks –Identity $O365Group.Identity –LinkType Members
-            Write-Host
+            Get-UnifiedGroupLinks –Identity $O365Group.Identity –LinkType Members | Select-Object -Property DisplayName, PrimarySmtpAddress
         } 
     }
     catch [System.Exception]
@@ -34,8 +33,8 @@ $sUserName="<Your_Office365_Admin_Account>"
 $sMessage="Introduce your Office 365 Credentials"
 #Connection to Office 365
 $msolCred = Get-Credential -UserName $sUserName -Message $sMessage
-Connect-MsolService -credential $msolCred
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $msolCred -Authentication Basic -AllowRedirection 
+Import-PSSession $Session -AllowClobber
 
 #Getting Groups Information
 Get-O365Members
-
